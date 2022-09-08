@@ -1,0 +1,2 @@
+(platform == "arm" && slave=="armcc") || (platform == "win" &&
+slave=="vs2010") || (platform == "linux" && slave=="gcc")
